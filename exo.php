@@ -1,12 +1,14 @@
 <?php
-function myPrint($data) {
-   echo $data . "&nbsp;";
-
-   $data = "I CALL THE CYBER POLICE ";
-  
+function myPrint($data) 
+{
+   echo($data ."&nbsp;");
 
 }
 
-myPrint($data);
+myPrint("I");
+myPrint("call");
+myPrint("the");
+myPrint("cyber");
+myPrint("police");
 
 ?>
