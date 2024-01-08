@@ -1,8 +1,6 @@
 <?php
 function oddOrEven($var)
 {
-  $var= $_GET["data"];
-
   if ($var % 2 === 0) {
     echo "$var" . ' est paire';
   } else {
@@ -10,6 +8,7 @@ function oddOrEven($var)
   }
 
 }
+$number= $_GET["data"];
 
 oddOrEven($number)
 
