@@ -22,4 +22,23 @@ myArrayPrint($tab2);
 myArrayPrint($tab3);
 myArrayPrint($tab4);
 
+
+    $allArray =[
+    
+        $tab0,
+        $tab1,
+        $tab2,
+        $tab3,
+        $tab4,
+    ];
+    foreach($allArray as $array)
+    {
+        foreach($array as $secondkey => $value)
+        {
+            echo ($secondkey . '=>' .$value.'<br>');
+        }
+    }
+
+myArrayPrint($array)
+
 ?>
