@@ -1,7 +1,7 @@
 <h1>Creation de compte</h1>
 
 
-<form action="register.php">
+<form action="register.php" method="$_POST"  >
     <div>
         <label for="firstname">Prénom</label>
         <input id="firstname" type="text" name="firstname">
@@ -24,12 +24,15 @@
     </div>
 
     <div>
-        <label for="gender">genre</label>
-        <p>
-        Homme: <input type="radio" name="gender" /><br />
-        Femme: <input type="radio" name="gender" /><br />
-        Non binaire: <input type="radio" name="gender" />
-        </p>
+        <p>Genre</p>
+        <label for="man">Homme</label>
+        <input id="man"  type="radio" name="gender" value="man" /><br />
+        <label for="women">Femme</label>
+        <input id="woman"  type="radio" name="gender" value="woman" /><br />
+        <label for="other">Autre</label>
+        <input id="other"  type="radio" name="gender" value="other" /><br />
+        
+        
     </div>
 <input type="submit" value="Valider">
 </form>
