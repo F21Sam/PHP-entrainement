@@ -58,4 +58,9 @@ echo ($_POST["password"]);
   
     header("Location: form.php?error=missing_fields");
     }
+
+    //sauvegarder en bdd
+    //chiffrer un password
+    $passwordHash = password_hash($_POST ['password'], PASSWORD_BCRYPT);
+    $passwordVerify($_POST['password'], $passwordHash);
 ?>
