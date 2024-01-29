@@ -1,6 +1,12 @@
 <h1>Creation de compte</h1>
-
-
+<?php
+if(isset ($_GET['error'])&& $_GET['error']){
+echo ("Vous avez mal saisi une information!");
+}
+echo ("<br>");
+echo ("<br>");
+echo ("<br>");
+?>
 <form action="register.php" method="$_POST"  >
     <div>
         <label for="firstname">Prénom</label>
