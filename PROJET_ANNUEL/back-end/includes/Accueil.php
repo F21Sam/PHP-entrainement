@@ -4,13 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Back Office - Accueil</title>
-    <link href="css/bootstrap-5.3.3-dist/bootstrap.min.css" rel="stylesheet">
-    <link href="css/material-dashboard-master/assets/css/material-dashboard.min.css" rel="stylesheet">
-    <link href="css/style.css" rel="stylesheet">
+    <link href="assets/css/material-dashboard.min.css" rel="stylesheet">
+    <link href="assets/css/style.css" rel="stylesheet">
 </head>
 <body>
 
-<?php include_once("includes/header.php"); ?>
+<?php include_once("header.php"); ?>
 
 <div class="container">
     <div class="row">
@@ -30,12 +29,5 @@
     </div>
 </div>
 
-<?php include_once("includes/footer.php"); ?>
+<?php include_once("footer.php"); ?>
 
-
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
-<script src="css/bootstrap-5.3.3-dist/js/bootstrap.min.js"></script>
-<script src="css/material-dashboard-master/assets/js/material-dashboard.min.js"></script>
-</body>
-</html>
