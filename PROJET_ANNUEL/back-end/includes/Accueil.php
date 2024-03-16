@@ -1,15 +1,3 @@
-<!DOCTYPE html>
-<html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Back Office - Accueil</title>
-    <link href="assets/css/material-dashboard.min.css" rel="stylesheet">
-    <link href="assets/css/style.css" rel="stylesheet">
-</head>
-<body>
-
-<?php include_once("header.php"); ?>
 
 <div class="container">
     <div class="row">
@@ -29,5 +17,5 @@
     </div>
 </div>
 
-<?php include_once("footer.php"); ?>
+
 
