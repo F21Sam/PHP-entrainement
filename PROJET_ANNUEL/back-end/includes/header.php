@@ -7,6 +7,7 @@
     <title>Amimal.org</title>
     <link id="pagestyle" href="assets/css/material-dashboard.min.css" rel="stylesheet" />
     <script defer data-site="Amimal.org" src="https://api.nepcha.com/js/nepcha-analytics.js"></script>
+    <script src="assets/js/script.js"></script>
 </head>
 
 <body class="g-sidenav-show bg-gray-100">

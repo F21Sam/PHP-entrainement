@@ -5,15 +5,15 @@
             <div class="ms-md-auto pe-md-3 d-flex align-items-center">
 
                 <div class="input-group input-group-outline">
-                    <label class="form-label">Recherche...</label>
-                    <input type="text" class="form-control">
+                    <label class="form-label"></label>
+                    <input type="text" class="form-control" placeholder="Recherche...">
                 </div>
 
             </div>
 
             <ul class="navbar-nav justify-content-end">
                 <li class="nav-item d-flex align-items-center">
-                    <a href="./pages/sign-in.html" class="nav-link text-body font-weight-bold px-0">Connexion</a>
+                    <a href="login_admin.php" class="nav-link text-body font-weight-bold px-0">Connexion</a>
                 </li>
             </ul>
 

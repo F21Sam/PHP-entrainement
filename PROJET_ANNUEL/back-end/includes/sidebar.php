@@ -109,7 +109,7 @@
 
 
             <li class="nav-item">
-                <a class="nav-link text-white " href="gestion_captcha">
+                <a class="nav-link text-white " href="gestion_captcha.php">
 
                     <div class="text-white text-center me-2 d-flex align-items-center justify-content-center">
                         <i class="material-icons opacity-10">Gestion du captcha</i>
