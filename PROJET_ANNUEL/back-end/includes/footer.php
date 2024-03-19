@@ -12,8 +12,6 @@
     </div>
 </footer>
 
-</main>
-
 <!-- Core JS Files -->
 <script src="assets/js/bootstrap.bundle.min.js"></script>
 <script src="assets/js/perfect-scrollbar.min.js"></script>
@@ -21,7 +19,6 @@
 <script>
     var win = navigator.platform.indexOf('Win') > -1;
 </script>
-
 </body>
 
 </html>

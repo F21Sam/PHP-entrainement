@@ -4,7 +4,7 @@
   <div class="row min-vh-80 h-100">
     <div class="col-12">
       <div class="row">
-        <div class="col-lg-7 position-relative z-index-2">
+        <div class="col-lg-11 position-relative z-index-2">
           <div class="card card-plain mb-4">
             <div class="card-body p-3">
               <div class="row">
@@ -26,7 +26,7 @@
                     <h5 class="card-title">Nom de l'animal</h5>
                     <p class="card-text">Race : Race de l'animal</p>
                     <p class="card-text">Âge : Âge de l'animal</p>
-                    <a href="lien-vers-page-adoption.php" class="btn btn-primary">En savoir plus</a>
+                    <a href="gestion_animaux.php" class="btn btn-primary">En savoir plus</a>
                   </div>
                 </div>
               </div>
@@ -38,7 +38,7 @@
                     <h5 class="card-title">Titre de l'article</h5>
                     <p class="card-text">Description brève de l'article</p>
                     <p class="card-text">Date de publication : 01 janvier 2024</p>
-                    <a href="lien-vers-article-complet.php" class="btn btn-primary">Lire l'article</a>
+                    <a href="gestion_articles.php" class="btn btn-primary">Lire l'article</a>
                   </div>
                 </div>
               </div>
@@ -50,7 +50,7 @@
                   <div class="card-body">
                     <h5 class="card-title">Nom de l'utilisateur</h5>
                     <p class="card-text">Brève biographie de l'utilisateur</p>
-                    <a href="lien-vers-profil-utilisateur.php" class="btn btn-primary">Voir le profil</a>
+                    <a href="gestion_utilisateurs.php" class="btn btn-primary">Voir le profil</a>
                   </div>
                 </div>
               </div>
@@ -63,7 +63,7 @@
                     <p class="card-text">Date : 01 janvier 2024</p>
                     <p class="card-text">Lieu : Lieu de l'événement</p>
                     <p class="card-text">Description brève de l'événement</p>
-                    <a href="lien-vers-page-evenement.php" class="btn btn-primary">En savoir plus</a>
+                    <a href="#" class="btn btn-primary">En savoir plus</a>
                   </div>
                 </div>
               </div>
@@ -79,7 +79,7 @@
                     <p class="card-text">Nombre d'adoptions : 100</p>
                     <p class="card-text">Nombre d'articles : 50</p>
                     <p class="card-text">Nombre de bénévoles inscrits : 200</p>
-                    <a href="lien-vers-page-statistiques.php" class="btn btn-primary">Voir plus de statistiques</a>
+                    <a href="statistiques.php" class="btn btn-primary">Voir plus de statistiques</a>
                   </div>
                 </div>
               </div>
@@ -90,6 +90,6 @@
     </div>
   </div>
 </div>
-</main>
+</m
 
 <?php include_once("footer.php"); ?>
